@@ -1,0 +1,76 @@
+/* components/Sidebar.css */
+
+/* style/Dashboard.css */
+
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #333; /* Couleur de fond de la sidebar */
+  padding: 20px;
+  box-sizing: border-box;
+  direction: rtl; /* Direction du texte de droite à gauche */
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  color: #fff; /* Couleur du texte */
+  margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff; /* Couleur du texte des liens */
+  font-size: 1rem;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar nav ul li a:hover {
+  background-color: #555; /* Couleur de fond au survol */
+}
+
+/* Style pour le lien actif */
+.sidebar nav ul li a.active {
+  font-weight: bold;
+  background-color: #666; /* Couleur de fond du lien actif */
+}
+
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.header .notification-icon {
+  order: -1; /* Déplacer l'icône de notification à gauche */
+  margin-right: 10px; /* Facultatif : ajouter une marge à droite de l'icône */
+}
+
+.header input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  direction: rtl; /* Définir la direction du texte comme RTL */
+}
