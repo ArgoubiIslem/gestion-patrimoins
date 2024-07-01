@@ -48,6 +48,20 @@
   font-weight: bold;
   background-color: #666; /* Couleur de fond du lien actif */
 }
+.logout-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.logout-button:hover {
+  text-decoration: underline;
+}
+
 
 
 
@@ -73,4 +87,28 @@
   border-radius: 5px;
   font-size: 14px;
   direction: rtl; /* Définir la direction du texte comme RTL */
+}
+
+
+.main-content {
+  flex-grow: 1;
+  margin-right: 250px;
+  padding: 20px;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.dashboard-card {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
